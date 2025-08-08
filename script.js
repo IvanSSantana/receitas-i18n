@@ -12,6 +12,8 @@ function loadLanguage(lang) {
       const img = document.getElementById("imagem");
       img.src = translations["imagem"];
 
+      const ingredientes = document.getElementById("ingredientes-lista");
+
       localStorage.setItem('linguagem', lang);
     });
 }
