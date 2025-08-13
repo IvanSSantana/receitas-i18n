@@ -20,6 +20,7 @@ function loadLanguage(lang) {
       for (const ingredient of ingredientsList) {
         const ingredientLi = document.createElement("li");
         ingredientLi.textContent = ingredient.trim();
+        ingredientLi.classList.add("ingredient")
         ingredientsHtml.appendChild(ingredientLi);
       }
 
